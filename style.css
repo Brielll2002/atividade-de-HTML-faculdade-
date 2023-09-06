@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+body{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+
+main{
+    min-width: 300px;
+    max-width: 100%;
+    margin: auto;
+}
+
+div{
+    background-color: bisque;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.295);
+}
+
+table{
+    border-collapse: collapse;
+}
+
+th, td{
+    border: 1px black solid;
+    padding: 10px;
+}
+
+#enviar, #limpar{
+    cursor: pointer;
+}
+
+#enviar, #limpar{margin-top: 10px;}
+
+#eu{
+    overflow-x: auto;
+}
